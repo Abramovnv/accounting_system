@@ -62,6 +62,4 @@ public class DocumentController {
                                            @RequestBody DocumentDto documentDto) {
         return documentService.updateDocument(docNum, documentDto);
     }
-
-
 }
